@@ -45,6 +45,8 @@ export default class AnimatedShoppingList extends Component {
           transitionName="example"
           transitionEnterTimeout={300}
           transitionLeaveTimeout={300}
+          transitionAppear={true}
+          transitionAppearTimeout={300}
         >
           {shoppingItems}
         </ReactCSSTransitionGroup>
