@@ -14,7 +14,7 @@ function App() {
         Hover!
       </button>
       <h2>Drag and Drop</h2>
-      <AnimatedShoppingList />
+      <AnimatedShoppingList/>
     </div>
   );
 }

@@ -32,3 +32,47 @@ a {
   50% { transform: scale(1.25); }
   100% { transform: none; }
 }
+
+.shoppingList {
+  margin: auto;
+  width: 750px;
+  border: 2px solid red;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.item {
+  background-color: #efefef;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 1px;
+  padding: 8px 12px;
+  width: 200px;
+}
+
+.example-enter {
+  opacity: 0;
+  transform: translateX(-250px);
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 0.3s;
+}
+
+.example-leave {
+  opacity: 1;
+  transform: translateX(0)
+}
+
+.example-leave.example-leave-active {
+  opacity: 0;
+  transform: translateX(250px);
+  transition: 0.3s;
+}
