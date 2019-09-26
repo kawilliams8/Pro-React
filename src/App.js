@@ -14,9 +14,9 @@ function App() {
       <button href="#" className="button" id="pulseanimation">
         Hover!
       </button>
-      <h2>React CSS Transition Group</h2>
+      <h2>ReactCSSTransitionGroup Animations</h2>
       <AnimatedShoppingList/>
-      <h2>Drag and Drop</h2>
+      <h2>Drag and Drop with react-dnd</h2>
       <Container />
     </div>
   );
