@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AnimatedShoppingList from './AnimatedShoppingList';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <button href="#" className="button" id="pulseanimation">
         Hover!
       </button>
+      <h2>Drag and Drop</h2>
+      <AnimatedShoppingList />
     </div>
   );
 }
