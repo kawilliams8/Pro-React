@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import AnimatedShoppingList from './AnimatedShoppingList';
+import Container from './Container';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <h2>React CSS Transition Group</h2>
       <AnimatedShoppingList/>
       <h2>Drag and Drop</h2>
+      <Container />
     </div>
   );
 }
